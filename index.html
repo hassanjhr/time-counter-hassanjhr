@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="bgColor">
+        <h1>Countdown Timer</h1>
+        <div id="timer">
+            <div>
+                <div id="displayFlex">
+                    <h3>Hours</h3><input type="number" id="hours" placeholder="Hours" min="0" value="0">
+                </div>:
+                <div id="displayFlex">
+                    <h3>Minutes</h3><input type="number" id="minutes" placeholder="Minutes" min="0" max="59" value="0">
+                </div>:
+                <div id="displayFlex">
+                    <h3>Seconds</h3><input type="number" id="seconds" placeholder="seconds" min="0" max="59" value="0">
+                </div>
+            </div>
+        </div>
+        <div>
+            <button id="start" onclick="startTimer()">Start</button>
+            <button id="reset" onclick="resetTimer()">Reset</button>
+        </div>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>

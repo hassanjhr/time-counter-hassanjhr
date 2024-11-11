@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    background-color: #e5e1ff94;
+    /* background: rgb(169,228,237); */
+    /* background: linear-gradient(335deg, rgba(169,228,237,1) 0%, rgba(197,231,186,0.4318977591036415) 35%, rgba(83,185,251,1) 100%); */
+/* background-repeat: no-repeat; */
+/* background-size: cover; */
+/* height:696px; */
+}
+
+h1 {
+    color: #333;
+}
+
+#timer {
+    margin: 20px auto;
+}
+
+#timer div {
+    margin-bottom: 10px;
+    display:inline-block;
+}
+
+#hours,
+#minutes,
+#seconds {
+    padding: 5px 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color:rgb(123, 7, 7) ;
+}
+
+button:focus {
+    outline: none;
+}
+
+
+h1,h3 {
+    color: rgb(123, 7, 7);
+}
+
+#bgColor{
+    background-color: #7f7896a0 ;
+    padding: 10px;
+}
